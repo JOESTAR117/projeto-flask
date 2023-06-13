@@ -1,0 +1,15 @@
+{% extends 'base.html'%}
+
+{% block content %}
+
+<form action="/" method="post">
+    <input type="number" name="code" placeholder="codigo do produto">
+    <input type="text" name="name" placeholder="nome do produto">
+    <input type="number" name="stock" placeholder="disponibilidade">
+    <input type="number" name="value" placeholder="valor do produto">
+    <input type="text" name="category" placeholder="categoria do produto">
+
+    <button type="submit">Cadastrar</button>
+</form>
+
+{% endblock %}

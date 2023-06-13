@@ -1,5 +1,6 @@
 from src.controllers.controller import *
 
 routes = {
-    'hello_route': '/', 'hello_controller': HelloController.as_view('Hello'),
+    'index_route': '/', 'index_controller': index.as_view('index'),
+
 }
